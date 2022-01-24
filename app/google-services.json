@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "666894512181",
+    "firebase_url": "https://cakemaniaapp-a60d8-default-rtdb.firebaseio.com",
+    "project_id": "cakemaniaapp-a60d8",
+    "storage_bucket": "cakemaniaapp-a60d8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:666894512181:android:375d3c3aeb4624a9ea817c",
+        "android_client_info": {
+          "package_name": "com.CakeMania.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "666894512181-r0tdohmv8hgrmjtnep2tn5brfi708ajh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.CakeMania.app",
+            "certificate_hash": "fc7ff05cb16af023106679696706842302ff8257"
+          }
+        },
+        {
+          "client_id": "666894512181-djvo2m5k04aeoj5268ft462e4deo7mpf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBagU2lsbUiyIpgIgfniEvQwLhzPqszv1w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "666894512181-djvo2m5k04aeoj5268ft462e4deo7mpf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/textView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/back4"
+
+    tools:context="com.CakeMania.app.MainMenu">
+
+
+    <ImageView
+        android:id="@+id/back2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pic18" />
+
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="331dp"
+        android:layout_height="487dp"
+        android:background="@drawable/background_shape"
+        android:orientation="vertical"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.502">
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="156dp"
+            app:srcCompat="@drawable/logo2" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="cursive"
+            android:text="Enjoy the finest !"
+            android:textAlignment="center"
+            android:textColor="@color/grey"
+            android:textSize="28sp" />
+
+        <Button
+            android:id="@+id/SignwithEmail"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/btnblue"
+            android:drawableLeft="@drawable/whitemail"
+            android:fontFamily="@font/abeezee"
+            android:gravity="center"
+            android:paddingLeft="7dp"
+            android:paddingBottom="5dp"
+            android:text="Login with Email"
+            android:textColor="@color/design_default_color_surface" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:fontFamily="@font/abeezee"
+            android:gravity="center"
+            android:paddingTop="20dp"
+            android:text="OR"
+            android:textColor="@color/grey"
+            android:textSize="16dp" />
+
+        <Button
+            android:id="@+id/SignUp"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btnpink"
+            android:fontFamily="@font/abeezee"
+            android:gravity="center"
+            android:paddingLeft="7dp"
+            android:paddingBottom="5dp"
+            android:text="Sign Up"
+            android:textColor="@color/design_default_color_surface" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
