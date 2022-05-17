@@ -2,7 +2,7 @@ package com.CakeMania.app;
 
 public class Chef {
 
-    private String Area,City, ConfirmPassword,EmailID,Fname,House,Lname,Mobile,Password,Postcode, State,Suburban;
+    private String Area, City, ConfirmPassword, EmailID, Fname,House, Lname,Mobile, Password, Postcode, State,Suburban;
 
     public Chef(String Area, String city, String confirmPassword, String emailID, String fname, String house, String lname, String mobile, String password, String postcode, String state, String suburban) {
         this.Area = Area;
