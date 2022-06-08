@@ -16,9 +16,7 @@ public class ChefFinalOrders {
     }
 
     public ChefFinalOrders()
-    {
-
-    }
+    { }
 
     public String getChefId() {
         return ChefId;
